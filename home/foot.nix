@@ -9,7 +9,7 @@
 
       mouse = {
         hide-when-typing = "no";
-        alternate-scroll-mode = "yes";
+        alternate-scroll-mode = "no";
       };
 
       mouse-bindings = {
