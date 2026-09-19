@@ -15,9 +15,6 @@
         "$git_state"
         "$git_status"
         "$nix_shell"
-        "$python"
-        "$java"
-        "$c"
         "$cmd_duration"
         "$line_break"
         "$character"
@@ -61,10 +58,6 @@
         format = "[$symbol$state]($style) ";
         symbol = " ";
       };
-
-      # language versions appear only inside matching projects
-      python.format = "[\${symbol}\${pyenv_prefix}(\${version})(\\($virtualenv\\))]($style) ";
-      java.format = "[\${symbol}(\${version})]($style) ";
 
       cmd_duration = {
         min_time = 2000;   # only show commands slower than 2 s
