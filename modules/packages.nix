@@ -5,6 +5,5 @@
     gcc gnumake cmake
     fzf ripgrep fd
     emacs fastfetch tree
-    eyedropper
   ];
 }
