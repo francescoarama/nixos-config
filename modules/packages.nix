@@ -4,5 +4,6 @@
     neovim tmux lazygit tree-sitter
     gcc gnumake cmake
     fzf ripgrep fd
+    emacs fastfetch
   ];
 }
