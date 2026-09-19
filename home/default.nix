@@ -1,5 +1,10 @@
 { ... }: {
-  imports = [ ./packages.nix ./gtk.nix ];
+  imports = [
+  ./packages.nix 
+  ./gtk.nix
+  ./zsh.nix
+  ./starship.nix
+  ];
 
   home.username = "francesco";
   home.homeDirectory = "/home/francesco";
