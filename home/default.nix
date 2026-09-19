@@ -5,6 +5,7 @@
   ./zsh.nix
   ./starship.nix
   ./foot.nix
+  ./obs.nix
   ];
 
   home.username = "francesco";
