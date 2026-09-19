@@ -4,6 +4,7 @@
   ./gtk.nix
   ./zsh.nix
   ./starship.nix
+  ./foot.nix
   ];
 
   home.username = "francesco";
