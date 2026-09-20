@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       main = {
-        shell = "tmux new-session -A -s main";
+        #shell = "tmux new-session -A -s main";
         font = "JetBrainsMono Nerd Font:size=13";
       };
 

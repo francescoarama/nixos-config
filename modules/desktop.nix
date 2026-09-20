@@ -29,6 +29,7 @@
     noto-fonts-color-emoji
     font-awesome
     nerd-fonts.jetbrains-mono
+    nerd-fonts.symbols-only
   ];
 
   # Needed so Home Manager can set GTK/dconf settings outside GNOME

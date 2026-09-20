@@ -6,6 +6,7 @@
   ./starship.nix
   ./foot.nix
   ./obs.nix
+  ./emacs.nix
   ];
 
   home.username = "francesco";
