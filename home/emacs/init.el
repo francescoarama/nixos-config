@@ -159,10 +159,12 @@
 
 (use-package evil-org
   :after org
+  :custom (evil-org-key-theme '(navigation insert textobjects additional calendar todo))
   :hook (org-mode . evil-org-mode)
   :config
   (require 'evil-org-agenda)
   (evil-org-agenda-set-keys))
+
 
 (use-package org-modern
   :hook ((org-mode . org-modern-mode)
