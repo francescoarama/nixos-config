@@ -3,7 +3,7 @@
     # apps
     firefox thunderbird vesktop gimp
     onlyoffice-desktopeditors bitwarden-desktop syncthingtray
-    kitty 
+    kitty gnome-pomodoro
 
     loupe          # images
     papers         # PDFs
