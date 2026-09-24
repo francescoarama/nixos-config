@@ -29,7 +29,8 @@
 ;; ---------- Theme ----------
 (use-package doom-themes
   :config
-  (load-theme 'doom-one t)           ; try doom-tokyo-night, doom-gruvbox, doom-nord
+  (load-theme 'modus-vivendi t)
+  ;;(load-theme 'doom-nord t)           ; try doom-tokyo-night, doom-gruvbox, doom-nord
   (doom-themes-org-config))
 (use-package nerd-icons)
 (use-package doom-modeline :init (doom-modeline-mode 1))
