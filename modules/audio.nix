@@ -4,5 +4,6 @@
     alsa.enable = true;
     pulse.enable = true;
   };
-  security.rtkit.enable = true;
+ programs.librepods.enable = true;
+ security.rtkit.enable = true;
 }

@@ -2,7 +2,7 @@
   users.users.francesco = {
     isNormalUser = true;
     description = "francesco";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "librepods" ];
     shell = pkgs.zsh;
   };
 
